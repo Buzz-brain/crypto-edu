@@ -793,7 +793,7 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
               <Button
                 onClick={onGetStarted}
                 size="lg"
-                className="bg-white text-blue-600 hover:bg-gray-50 px-12 py-6 text-xl font-bold shadow-2xl"
+                className="bg-black text-blue-600 hover:bg-gray-50 px-12 py-6 text-xl font-bold shadow-2xl"
                 icon={<ArrowRight className="h-6 w-6" />}
               >
                 Start Your Journey Today

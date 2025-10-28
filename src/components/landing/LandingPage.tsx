@@ -212,19 +212,19 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
                   onClick={onGetStarted}
                   size="lg"
                   icon={<ArrowRight className="h-6 w-6" />}
-                  className="bg-white text-blue-600 hover:bg-gray-50 border-none shadow-2xl px-8 py-4 text-lg font-semibold transform hover:scale-105 transition-all duration-300"
+                  className="bg-black text-blue-600 hover:bg-gray-50 border-none shadow-2xl px-8 py-4 text-lg font-semibold transform hover:scale-105 transition-all duration-300"
                 >
                   Start Paying with Crypto
                 </Button>
                 
-                <Button
+                {/* <Button
                   variant="secondary"
                   size="lg"
                   icon={<Play className="h-6 w-6" />}
                   className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold backdrop-blur-sm"
                 >
                   Watch Demo
-                </Button>
+                </Button> */}
               </motion.div>
 
               {/* Trust Indicators */}
